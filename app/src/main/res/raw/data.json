@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "ticketID": 1,
+      "price": 100,
+      "date": "2月13日",
+      "time": "09:00",
+      "level": "硬座",
+      "limitedNum": 2,
+      "remainNum": 5
+    },
+    {
+      "ticketID": 2,
+      "price": 200,
+      "date": "2月13日",
+      "time": "09:00",
+      "level": "硬卧",
+      "limitedNum": 2,
+      "remainNum": 5
+    },
+    {
+      "ticketID": 3,
+      "price": 300,
+      "date": "2月13日",
+      "time": "09:00",
+      "level": "软卧",
+      "limitedNum": 2,
+      "remainNum": 5
+    },
+    {
+      "ticketID": 4,
+      "price": 300,
+      "date": "2月13日",
+      "time": "15:00",
+      "level": "硬座",
+      "limitedNum": 2,
+      "remainNum": 5
+    },
+    {
+      "ticketID": 5,
+      "price": 300,
+      "date": "2月13日",
+      "time": "15:00",
+      "level": "硬卧",
+      "limitedNum": 2,
+      "remainNum": 5
+    },
+    {
+      "ticketID": 5,
+      "price": 300,
+      "date": "2月14日",
+      "time": "09:00",
+      "level": "软卧",
+      "limitedNum": 2,
+      "remainNum": 5
+    }
+  ]
+}
+
