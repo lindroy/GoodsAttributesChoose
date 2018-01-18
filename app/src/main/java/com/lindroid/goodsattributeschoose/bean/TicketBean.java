@@ -1,4 +1,4 @@
-package com.lindroid.goodsattributeschoose;
+package com.lindroid.goodsattributeschoose.bean;
 
 import java.util.List;
 

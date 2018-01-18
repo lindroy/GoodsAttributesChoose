@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.lindroid.goodsattributeschoose.bean.TicketBean;
 
 import java.io.InputStreamReader;
 import java.io.Reader;
