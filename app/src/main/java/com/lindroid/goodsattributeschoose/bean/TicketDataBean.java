@@ -8,19 +8,20 @@ import java.util.List;
  * @function
  */
 
-public class TicketBean {
+public class TicketDataBean {
 
-    private List<DataBean> data;
 
-    public List<DataBean> getData() {
-        return data;
+    private List<TicketBean> ticketData;
+
+    public List<TicketBean> getTicketData() {
+        return ticketData;
     }
 
-    public void setData(List<DataBean> data) {
-        this.data = data;
+    public void setTicketData(List<TicketBean> ticketData) {
+        this.ticketData = ticketData;
     }
 
-    public static class DataBean {
+    public static class TicketBean {
         /**
          * ticketID : 1
          * price : 100
@@ -93,19 +94,6 @@ public class TicketBean {
 
         public void setRemainNum(int remainNum) {
             this.remainNum = remainNum;
-        }
-
-        @Override
-        public String toString() {
-            return "DataBean{" +
-                    "ticketID=" + ticketID +
-                    ", price=" + price +
-                    ", date='" + date + '\'' +
-                    ", time='" + time + '\'' +
-                    ", level='" + level + '\'' +
-                    ", limitedNum=" + limitedNum +
-                    ", remainNum=" + remainNum +
-                    '}';
         }
     }
 }

@@ -8,7 +8,12 @@ package com.lindroid.goodsattributeschoose.bean;
 
 public class OptionBean {
     private String optionName;
-    private boolean isSelected;
+    private int status;
+
+    public OptionBean(String optionName, int status) {
+        this.optionName = optionName;
+        this.status = status;
+    }
 
     public String getOptionName() {
         return optionName;
@@ -18,11 +23,11 @@ public class OptionBean {
         this.optionName = optionName;
     }
 
-    public boolean isSelected() {
-        return isSelected;
+    public int getStatus() {
+        return status;
     }
 
-    public void setSelected(boolean selected) {
-        isSelected = selected;
+    public void setStatus(int status) {
+        this.status = status;
     }
 }
