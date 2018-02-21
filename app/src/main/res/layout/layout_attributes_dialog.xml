@@ -25,7 +25,7 @@
 
                 <TextView
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:layout_marginLeft="15dp"
                     android:text="日期"
                     android:layout_width="match_parent"
@@ -38,7 +38,7 @@
 
                 <TextView
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:layout_marginLeft="15dp"
                     android:text="时间"
                     android:layout_width="match_parent"
@@ -51,7 +51,7 @@
 
                 <TextView
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:layout_marginLeft="15dp"
                     android:text="等级"
                     android:layout_width="match_parent"
